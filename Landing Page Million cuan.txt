@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cuan Million - Template Excel Keuangan & HR</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8fafc;
+      color: #1f2937;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background-color: #10b981;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+      animation: fadeInDown 1s ease-in-out;
+    }
+
+    header img {
+      width: 80px;
+      height: auto;
+      margin-bottom: 15px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .section {
+      background: white;
+      margin-bottom: 30px;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      animation: fadeIn 1s ease-in;
+    }
+
+    .section h2 {
+      font-size: 1.6rem;
+      margin-bottom: 15px;
+      color: #111827;
+    }
+
+    .section ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .section ul li {
+      padding: 10px 0;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .image-box {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .image-box img {
+      max-width: 100%;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .image-box img:hover {
+      transform: scale(1.03);
+    }
+
+    .price-box {
+      text-align: center;
+    }
+
+    .price {
+      font-size: 2rem;
+      color: #10b981;
+      font-weight: bold;
+    }
+
+    .old-price {
+      text-decoration: line-through;
+      color: #9ca3af;
+      font-size: 1rem;
+    }
+
+    .button {
+      background-color: #ef4444;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #dc2626;
+    }
+
+    .faq {
+      margin-top: 20px;
+    }
+
+    .faq h3 {
+      font-size: 1.1rem;
+      margin: 10px 0;
+      color: #111827;
+    }
+
+    .faq p {
+      margin-bottom: 15px;
+      color: #374151;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #6b7280;
+      padding: 20px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .section h2 {
+        font-size: 1.3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://drive.google.com/uc?export=view&id=1mzr5SZgxtumWSDzxGr2aCzGtAEfhkLBS" alt="Logo Cuan Million" />
+    <h1>Cuan Million</h1>
+    <p>Template Excel Siap Pakai untuk Keuangan & HR Perusahaan</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>Kenapa Harus Pakai Template Ini?</h2>
+      <ul>
+        <li>✅ Mempermudah proses bisnis dan pencatatan keuangan</li>
+        <li>✅ Template Excel praktis, tanpa perlu software tambahan</li>
+        <li>✅ Dirancang untuk pekerja back office, HR, dan pebisnis pemula</li>
+        <li>✅ Solusi murah tanpa harus merekrut tenaga ahli mahal</li>
+        <li>✅ Cocok untuk pengguna aktif media sosial dan mobile</li>
+      </ul>
+      <div class="image-box">
+        <img src="https://drive.google.com/uc?export=view&id=1JcmjX3mVNUix-kApwGlhn9Br3via7oGo" alt="Gambar Template Excel" />
+      </div>
+    </div>
+
+    <div class="section price-box">
+      <h2>Harga Promo Hari Ini 🔥</h2>
+      <p class="old-price">Rp98.000</p>
+      <p class="price">Mulai dari Rp10.000</p>
+      <p>📌 Rp10.000 untuk satu template Keuangan<br>📌 Rp35.000 untuk paket lengkap Template Keuangan dan HR Tools</p>
+      <button class="button" onclick="window.location.href='http://lynk.id/payme/cuanmillion'">Beli Harga Khusus Hari Ini</button>
+    </div>
+
+    <div class="section">
+      <h2>Siapa yang Cocok Pakai?</h2>
+      <ul>
+        <li>📱 Freelancer yang biasa mengerjakan proyek secara remote</li>
+        <li>💼 Karyawan back office atau HR yang butuh kemudahan dalam mengatur karyawan</li>
+        <li>📊 Junior manager yang ingin sistem berjalan dengan rapi</li>
+        <li>🚀 Individu yang ingin mulai bisnis dengan mudah dengan sistem yang siap pakai</li>
+      </ul>
+    </div>
+
+    <div class="section faq">
+      <h2>Pertanyaan yang Sering Diajukan (FAQ)</h2>
+
+      <h3>Apakah saya perlu aplikasi khusus untuk menggunakan template ini?</h3>
+      <p>Tidak. Anda hanya perlu Microsoft Excel atau Google Sheets.</p>
+
+      <h3>Apakah template ini bisa digunakan berkali-kali?</h3>
+      <p>Ya! Anda bisa gunakan template ini sebanyak yang Anda butuhkan untuk berbagai proyek atau bisnis.</p>
+
+      <h3>Bagaimana saya menerima produk setelah membeli?</h3>
+      <p>Setelah pembayaran berhasil, link unduhan akan dikirim ke email atau WhatsApp Anda dalam hitungan menit.</p>
+
+      <h3>Bisa minta revisi atau bantuan penggunaan?</h3>
+      <p>Tentu! Kami menyediakan dukungan via email dan WhatsApp setelah pembelian.</p>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Cuan Million. Semua Hak Dilindungi.
+  </footer>
+
+</body>
+</html>
